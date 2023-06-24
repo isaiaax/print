@@ -1,0 +1,664 @@
+@charset "UTF-8";
+
+/* Posicionamento do Header e o Footer para todas as páginas!!! */
+body {
+  background-color: beige;
+  margin: 25px;
+}
+
+html{
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  height: 200px;
+  width: 100%;
+  background-color: #111;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  text-transform: uppercase;
+}
+header li {
+  list-style: none;
+}
+
+header ul li a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+p {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+}
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+  text-align: justify;
+  font-weight: bold;
+}
+
+h4 {
+  display: none;
+}
+
+img {
+  border: 2px solid #000000;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #111;
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+
+footer li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+footer ul li a {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+small {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50vh;
+}
+/* ***** */
+
+/* logo  */
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+/* Posicionamento da Home */
+
+/* .menu {
+  margin: 15px; 
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+.menu h1 {
+  text-align: left;
+}
+.caixa {
+  position: relative;
+  display: inline-block;
+}
+
+.caixa figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000000;
+}
+
+.caixa p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+}
+
+.semtitulo {
+  width: 1200px;
+  height: 1000px;
+}
+
+/* ***** */
+
+/* Posicionamento da Página Quem Somos */
+
+.article-quem {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.lado {
+  padding: 20px;
+}
+
+#img-lado {
+  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+}
+.name1 {
+  margin-top: 20px;
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 20px;
+}
+.name1 h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 2px;
+}
+
+.name1 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  display: inline;
+  padding: 2px;
+  text-align: justify;
+}
+
+.right {
+  margin: 20px;
+}
+
+#img-right {
+  border-radius: 15px;
+  width: 500px;
+  height: 500px;
+}
+
+.name2 h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.name2 p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  display: inline;
+}
+
+.name2 {
+  margin-top: 20px;
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* ***** */
+
+/* Posicionamento da Página Artistas */
+
+#arts {
+  display: flex;
+  justify-content: right;
+  align-items: last baseline;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px black solid;
+  border-radius: 15px;
+}
+
+.font {
+  text-align: center;
+  margin: 20px;
+}
+
+.linkjuka {
+  display: inline;
+  flex-direction: column;
+  align-items: end;
+  margin: 50px;
+}
+
+.linkjuka a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.linkjuka a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space a {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.space a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.space p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+#img-juca {
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
+}
+
+#img-rita {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+#img-darcy {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+#img-daniela {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.card-artista {
+  border: 1px black solid;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.button {
+  /* background-color: aqua; */
+  border: 1px black solid;
+  border-radius: 20px;
+}
+#button {
+  /* background-color: aqua; */
+  border: 1px black solid;
+  border-radius: 20px;
+  padding-inline: 40px;
+}
+
+/* ***** */
+
+/* Posicionamento Página Contatos */
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.aside-label {
+  display: flex;
+  flex: 1;
+}
+
+.form-input {
+  width: 400px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.section-button-contato {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
+}
+
+.button-contato {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.title-text-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.title-contato {
+  margin: 0;
+}
+
+.text-contato {
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-color: rgb(220, 233, 233);
+  padding: 20px;
+}
+
+/* ***** */
+
+/* Posicionamento página Rita */
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  padding-bottom: 10px;
+}
+
+.contentImage {
+  width: 600;
+  height: 400;
+}
+
+.imgrita {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.imgrita2 {
+  margin-bottom: 10px;
+  width:720px;
+  height: 420px;
+}
+
+.contentText {
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+.title {
+  margin: 0;
+}
+
+.text {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.contentTextTwo {
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 25px; */
+}
+
+.titleTwo {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.textTwo {
+  margin: 0;
+  line-height: 35px;
+}
+
+/* ***** */
+
+/* Posicionamento página Daniela*/
+
+
+
+.contexto-dani {
+  line-height: 40px;
+}
+
+.context-dani{
+  line-height: 30px;
+}
+
+.display-dani {
+  display: flex;
+}
+
+.section-img {
+  margin-right: 30px;
+}
+.daniela {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+/* Posicionamento página Darcy*/
+
+.title-text-darcy {
+  margin-right: 20px;
+}
+
+.darcy-img {
+  width: 100%;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.text-quem-foi-darcy {
+  text-align: left;
+  line-height: 40px;
+}
+
+.text-do-interior{
+  line-height: 40px;
+}
+
+.darcy-img-capa {
+  width: 400px;
+  height: 600px;
+}
+
+.section-text-image {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.section-text-image-militante {
+  display: flex;
+}
+
+.title-text-militante {
+  margin-right: 100px;
+}
+
+.text-militante {
+  text-align: left;
+  line-height: 40px;
+}
+
+.img-militante-one {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 70px;
+}
+
+.img-militante-two {
+  width: 300px;
+  height: 300px;
+}
+
+/* Posicionamento página Juca*/
+.jucadelado {
+  display: flex;
+}
+.title-juca-one {
+  margin: 0;
+}
+.aside-juca {
+  width: 50%;
+}
+.text-juca-one {
+  text-align: left;
+  line-height: 35px;
+}
+
+.text-juca-two{
+  line-height: 35px;
+}
+.juca-img-capa {
+  width: 100%;
+  height: 100%;
+  /* width: 700px;
+  height: 900px; */
+  border: 3px solid black;
+}
+.imgjucadelado {
+  width: 50%;
+  margin-left: 30px;
+  margin-bottom: 23px;
+  margin-top: 10px;
+}
+.section-teatro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title-teatro {
+  margin: 0;
+}
+
+.section-img-teatro {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.teatro-img {
+  height: 300px;
+  width: 350px;
+}
+
+/* ***** */
+
+/* Posicionamento de Todas as Páginas Obras */
+
+.linknav {
+  display: flex;
+  justify-content: flex-end;
+}
+.navi {
+  display: flex;
+  list-style: none;
+}
+
+.navi a {
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.navi a:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#flex1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fontbold {
+  font-weight: bold;
+}
+
+#flex2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* ***** */
+
+/* Posicionamento de todas as página Espetáculos */
+
+.itenlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableaside {
+  float: right;
+}
+
+.itenlist li {
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+  padding-right: 10px;
+}
+.arial {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  margin: 20px;
+  border: 1px solid #000000;
+  background-color: rgb(121, 121, 121);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
